@@ -4,12 +4,9 @@
 }
 
 body {
-    background: #E52079;
-    background: -webkit-linear-gradient(top left, #E52079, #E8AF42);
-    background: -moz-linear-gradient(top left, #E52079, #E8AF42);
-    background: linear-gradient(to bottom right, #E52079, #E8AF42);
-    margin: 1rem;
-    padding: 1rem;
+    background-image: url("josample.jpg");
+    background-color: #D74DF5;
+   
 }
 
 .wrapper {
