@@ -7,13 +7,13 @@ body {
     background-color: #D74DF5;
     background-image: url(lomi-bg.jpg);
     background-position: center;
-    background-size: auto;
+    background-size: 40rem;
  
    
 }
 
 .wrapper {
-    height:120vh;
+    height:115vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,10 +74,10 @@ body {
 }
 .tech-slideshow {
     height: 209px;
-    max-width: 400px;
+    max-width: 380px;
     margin: 0 auto;
     overflow: hidden;
-    position: center;
+    position: left;
     transform: translate3d(0, 0, 0);
   }
   
@@ -85,7 +85,7 @@ body {
     height: 209px;
     width: 3840px;
     background: url(lomi-banner.jpg);
-    position: relative;
+    position: left;
     top: 0;
     left: 0;
     height: 100%;
