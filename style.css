@@ -6,6 +6,10 @@
 body {
     background-image: url("josample.jpg");
     background-color: #D74DF5;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
    
 }
 
@@ -18,12 +22,12 @@ body {
     margin: 1rem;
 }
 
-.cat-gif-photo,
+.lomi-pamper,
 .paragraph-texts {
     height: 10rem;
 }
 
-.cat-gif-photo {
+.lomi-pamper {
     height: 10rem;
     width: 10rem;
     border-radius: 5rem;
@@ -37,7 +41,7 @@ body {
 .paragraph-texts {
     font-family: "anotefontstyle";
     color: hsl(0, 0%, 100%);
-    width:15rem;
+    width:30rem;
     text-align: center;
 }
 
@@ -68,3 +72,32 @@ body {
 .music {
     width: 10rem;
 }
+.tech-slideshow {
+    height: 209px;
+    max-width: 3000px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .tech-slideshow > div {
+    height: 209px;
+    width: 3940px;
+    background: url(lomi-banner.jpg);
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+  }
+  .tech-slideshow .mover-1 {
+    animation: moveSlideshow 30s linear infinite;
+  }
+ 
+  
+  
+  @keyframes moveSlideshow {
+    100% { 
+      transform: translateX(-66.6666%);  }
+  }
