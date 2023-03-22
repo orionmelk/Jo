@@ -6,6 +6,8 @@
 body {
     background-color: #D74DF5;
     background-image: url(lomi-bg.jpg);
+    background-position: center;
+    background-size: auto;
  
    
 }
@@ -72,16 +74,16 @@ body {
 }
 .tech-slideshow {
     height: 209px;
-    max-width: 1000px;
+    max-width: 400px;
     margin: 0 auto;
-    position: relative;
     overflow: hidden;
+    position: center;
     transform: translate3d(0, 0, 0);
   }
   
   .tech-slideshow > div {
     height: 209px;
-    width: 3940px;
+    width: 3840px;
     background: url(lomi-banner.jpg);
     position: relative;
     top: 0;
