@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
+    margin: 0.1rem;
 }
 
 .paragraph-texts {
@@ -75,9 +75,9 @@ body {
 .tech-slideshow {
     height: 209px;
     max-width: 380px;
-    margin: 0 auto;
+    margin: 0rem;
     overflow: hidden;
-    position: left;
+    position: relative;
     transform: translate3d(0, 0, 0);
   }
   
@@ -85,7 +85,7 @@ body {
     height: 209px;
     width: 3840px;
     background: url(lomi-banner.jpg);
-    position: left;
+    position: relative;
     top: 0;
     left: 0;
     height: 100%;
