@@ -4,17 +4,14 @@
 }
 
 body {
-    background-image: url("josample.jpg");
     background-color: #D74DF5;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-image: url(lomi-bg.jpg);
+ 
    
 }
 
 .wrapper {
-    height:100vh;
+    height:120vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,9 +19,9 @@ body {
     margin: 1rem;
 }
 
-.lomi-pamper,
 .paragraph-texts {
     height: 10rem;
+    word-spacing: 0.1rem;
 }
 
 .lomi-pamper {
@@ -70,11 +67,12 @@ body {
   }
 
 .music {
-    width: 10rem;
+    width: 20rem;
+    position: relative
 }
 .tech-slideshow {
     height: 209px;
-    max-width: 3000px;
+    max-width: 1000px;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -92,7 +90,7 @@ body {
     transform: translate3d(0, 0, 0);
   }
   .tech-slideshow .mover-1 {
-    animation: moveSlideshow 30s linear infinite;
+    animation: moveSlideshow 35s linear alternate infinite;
   }
  
   
